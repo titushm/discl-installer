@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "discl-installer", "discl-installer\discl-installer.csproj", "{E01E554B-0611-4441-8EA7-6F9389BF5CCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E01E554B-0611-4441-8EA7-6F9389BF5CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01E554B-0611-4441-8EA7-6F9389BF5CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01E554B-0611-4441-8EA7-6F9389BF5CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01E554B-0611-4441-8EA7-6F9389BF5CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D2038A-D9B9-42C3-98B8-53653822931D}
+	EndGlobalSection
+EndGlobal

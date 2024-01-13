@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "NG86pVEBqeoTFMgm1E1YK9s2n3liubVYReoOdeotrMI5iGzD8Xyfu+do0moCI/NsN1MvRNnfKMY/IEiRmsUx5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Titus\\Repos\\Github\\discl-installer\\discl-installer\\discl-installer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Titus\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Titus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Titus\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Titus\\.nuget\\packages\\wpf-ui\\2.1.0\\wpf-ui.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

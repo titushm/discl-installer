@@ -1,0 +1,38 @@
+﻿<Window x:Class="discl_installer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml" Background="#2d2d2d"
+        Title="Discl Installer" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Loaded="Grid_Loaded">
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock FontSize="50" Foreground="White" FontWeight="Bold">Discl Installer</TextBlock>
+            <TextBlock FontSize="17" Foreground="White" HorizontalAlignment="Center" Padding="0, 10">Discl is a discord modification for Windows</TextBlock>
+            <TextBlock FontSize="17" Foreground="White" HorizontalAlignment="Center" Padding="0, 10, 5, 0">Installed:</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 5, 0">Version:</TextBlock>
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 0, 0" Name="InstalledVersionTextBlock"></TextBlock>
+            </StackPanel>
+            <TextBlock FontSize="17" Foreground="White" HorizontalAlignment="Center" Padding="0, 10, 5, 0">Latest:</TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 5, 0">Version:</TextBlock>
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 0, 0" Name="VersionTextBlock"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 5, 0">Released:</TextBlock>
+                <TextBlock FontSize="17" Foreground="LightGray" HorizontalAlignment="Center" Padding="0, 10, 0, 10" Name="ReleasedTextBlock"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <ui:Button FontSize="20" HorizontalAlignment="Center" Name="UninstallButton" Margin="0, 0, 10, 0" Content="Uninstall" Click="UninstallButton_Click"/>
+                <ui:Button FontSize="20" HorizontalAlignment="Center" Name="InstallButton" IsEnabled="False" Content="Install" Click="InstallButton_Click"/>
+            </StackPanel>
+            <TextBlock FontSize="17" Foreground="gray" HorizontalAlignment="Center" Padding="0, 10, 0, 10" Name="LogTextBlock"></TextBlock>
+        </StackPanel>
+        <TextBlock Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="10" Name="InstallerVersionTextBlock"></TextBlock>
+        
+    </Grid>
+</Window>
