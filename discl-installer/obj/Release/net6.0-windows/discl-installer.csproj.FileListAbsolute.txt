@@ -3,10 +3,6 @@ C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-w
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\discl-installer.runtimeconfig.json
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\discl-installer.dll
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\discl-installer.pdb
-C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\Microsoft.Win32.SystemEvents.dll
-C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\System.Drawing.Common.dll
-C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\Wpf.Ui.dll
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-windows\discl-installer.csproj.AssemblyReference.cache
@@ -27,3 +23,4 @@ C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-w
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-windows\discl-installer.pdb
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-windows\discl-installer.genruntimeconfig.cache
 C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-windows\ref\discl-installer.dll
+C:\Users\Titus\Repos\Github\discl-installer\discl-installer\obj\Release\net6.0-windows\discl-installer.csproj.Fody.CopyLocal.cache

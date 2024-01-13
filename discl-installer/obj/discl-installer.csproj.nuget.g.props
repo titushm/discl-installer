@@ -12,6 +12,9 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Titus\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)costura.fody\5.7.0\build\Costura.Fody.props" Condition="Exists('$(NuGetPackageRoot)costura.fody\5.7.0\build\Costura.Fody.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgWPF-UI Condition=" '$(PkgWPF-UI)' == '' ">C:\Users\Titus\.nuget\packages\wpf-ui\2.1.0</PkgWPF-UI>
   </PropertyGroup>
