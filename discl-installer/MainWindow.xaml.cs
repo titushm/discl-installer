@@ -100,6 +100,9 @@ namespace discl_installer {
         }
 
         private void InstallButton_Click(object sender, RoutedEventArgs e) {
+            if (InstallButton.Content == "Update") {
+                UninstallButton_Click(new object { }, new RoutedEventArgs { });
+            }
             Log("Starting install");
             cleanUpDiscord();
             if (!Directory.Exists(LocalAppData + @"\discl")) {
