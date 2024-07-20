@@ -1,0 +1,35 @@
+﻿<ui:FluentWindow x:Class="Discl_Installer.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Discl_Installer"
+        xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+        ui:Design.Background="#202020"
+        mc:Ignorable="d"
+        Loaded="FluentWindow_Loaded"
+        Icon="/resources/appicon.ico"
+        Title="Discl Installer" Height="300" Width="500" ResizeMode="NoResize">
+    <Grid>
+        <ui:TitleBar Title="Settings" Height="30" ShowMaximize="False" ShowMinimize="False"/>
+        <StackPanel Margin="10">
+            <ui:TextBlock FontSize="30" FontWeight="bold" HorizontalAlignment="Center">
+                <Run Text="Settings"/>
+            </ui:TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <StackPanel Margin="0,0,10,0">
+                    <ui:TextBlock FontSize="16" Margin="0, 5,0,20">Install Location:</ui:TextBlock>
+                    <ui:TextBlock FontSize="16" Margin="0,0,0,5">Installer Version:</ui:TextBlock>
+                    <ui:TextBlock FontSize="16" Margin="0,0,0,5">Uicons by:</ui:TextBlock>
+                </StackPanel>
+
+                <StackPanel>
+                    <ui:Button x:Name="InstallLocationButton" Margin="0,0,0,15" Cursor="Hand" Click="InstallLocationButton_Click"></ui:Button>
+                    <ui:TextBlock x:Name="InstallerVersionText" FontSize="16" Margin="0,0,0,8" Foreground="Gray">1.0.0</ui:TextBlock>
+                    <ui:HyperlinkButton FontSize="16" Padding="0" NavigateUri="https://www.flaticon.com/uicons" Cursor="Hand">Flaticon</ui:HyperlinkButton>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+   
+</ui:FluentWindow>
