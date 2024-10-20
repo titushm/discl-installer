@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Discl_Installer {
     public static class Utils {
-        public static string INSTALLER_VERSION = "2.0.0";
+        public static string INSTALLER_VERSION = "2.1.0";
 
         public class InstallerConfig {
             public string install_location = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\discl";

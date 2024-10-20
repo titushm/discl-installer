@@ -37,6 +37,7 @@ namespace Discl_Installer {
         string DISCORD_PATH = LOCAL_APPDATA + "\\discord";
         string DISCL_PATH = Utils.GetConfig().install_location;
         string DISCL_DOWNLOAD_URL = "https://api.github.com/repos/titushm/discl/releases/latest";
+        string OPENASAR_DOWNLOAD_URL = "https://api.github.com/repos/GooseMod/OpenAsar/releases/latest";
         string INTERCEPTOR_DOWNLOAD_URL = "https://api.github.com/repos/titushm/discl-interceptor/releases/latest";
         string PIP_DOWNLOAD_URL = "https://bootstrap.pypa.io/get-pip.py";
         Dictionary<string, string> ARCHITECHURE_MAP = new Dictionary<string, string> {
@@ -206,6 +207,16 @@ namespace Discl_Installer {
                         }, 3, 500, "Removing python_runtime.txt");
                         if (!result) return;
                     }
+                    result = VolatileAction(() => {
+                        DirectoryInfo appdata_discord = new DirectoryInfo(DISCORD_PATH);
+                        foreach (DirectoryInfo dir in appdata_discord.GetDirectories()) {
+                            if (dir.Name.StartsWith("app-")) {
+                                File.Delete(DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\app.asar");
+                                File.Move(DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\discord_app.asar", DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\app.asar");
+                            }
+                        }
+                    }, 3, 500, "Downloading OpenAsar");
+                    if (!result) return;
                     Dispatcher.Invoke(() => { StatusText.Text = "Discl has been removed"; });
                 }
                 else {
@@ -349,6 +360,19 @@ namespace Discl_Installer {
                         writer.Write(DISCL_PATH);
                         writer.Close();
                     }, 3, 500, "Copying python_runtime.txt");
+                    if (!result) return;
+
+                    result = VolatileAction(() => {
+                        VersionInfo info = GetReleaseInfo(OPENASAR_DOWNLOAD_URL);
+                        Asset asset = info.assets[0];
+                        DirectoryInfo appdata_discord = new DirectoryInfo(DISCORD_PATH);
+                        foreach (DirectoryInfo dir in appdata_discord.GetDirectories()) {
+                            if (dir.Name.StartsWith("app-")) {
+                                File.Move(DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\app.asar", DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\discord_app.asar");
+                                client.DownloadFile(asset.browser_download_url, DISCORD_PATH + "\\" + dir.Name + "\\Resources" + "\\app.asar");
+                            }
+                        }
+                    }, 3, 500, "Downloading OpenAsar");
                     if (!result) return;
                     Dispatcher.Invoke(() => { StatusText.Text = "Discl has been installed"; });
                 }

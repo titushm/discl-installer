@@ -1,0 +1,26 @@
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\bin\Release\net8.0-windows\Discl Installer.exe
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\bin\Release\net8.0-windows\Discl Installer.deps.json
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\bin\Release\net8.0-windows\Discl Installer.runtimeconfig.json
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\bin\Release\net8.0-windows\Discl Installer.dll
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\bin\Release\net8.0-windows\Discl Installer.pdb
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.csproj.AssemblyReference.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\MainWindow.g.cs
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\SettingsWindow.g.cs
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\App.g.cs
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer_MarkupCompile.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer_MarkupCompile.lref
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\App.baml
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\MainWindow.baml
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\SettingsWindow.baml
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.g.resources
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.AssemblyInfoInputs.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.AssemblyInfo.cs
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.csproj.CoreCompileInputs.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.sourcelink.json
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.csproj.Fody.CopyLocal.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.dll
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\refint\Discl Installer.dll
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.pdb
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\Discl Installer.genruntimeconfig.cache
+C:\Users\titus\Repos\Github\discl-installer\Discl Installer\obj\Release\net8.0-windows\ref\Discl Installer.dll
